@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>positioning property</title>
+	<style type="text/css">
+		.absolute{
+			
+			position: absolute;
+			background-color: gold;
+			left: 520px;
+			width: 90px;
+		}
+		.fixed{
+			 position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: gold;
+    width: 90px;
+    padding: 20px;
+		}
+		.float_left{
+			float :right;
+			 padding: 20px;
+    margin: 0 10px 10px 0;
+    background: gold;
+		}
+	</style>
+</head>
+<div class="absolute">Here is the normal flow of content...</div>
+<div class="fixed">
+  This div is using a fixed position of 100 pixels from the top and 60 pixels from the left of its containing block. When this page scrolls, this box will remain in a fixed position - it won't scroll with the rest of the page. Go on - SCROLL!
+</div>
+<div class="float_left">
+  Float left
+</div>
+
+
+</html>
